@@ -1,0 +1,7 @@
+项目中用到require.js做生产时模块开发，但上线要合并压缩，幸好它配套有r.js
+
+你想r.js做压缩，还有一个必要条件，得安装node.js，这个不详谈了，自己百度谷哥。然后要安装r.js，
+window下打开控制台，输入npm install -g requirejs
+然后定位到js目录下，输入node r.js -o build.js，然后该目录下就会多出main-built.js这个文件，表示合并成功！
+ 
+然后上线时，将index.html中 data-main="js/main"改成 data-main="js/main-built"就行了
