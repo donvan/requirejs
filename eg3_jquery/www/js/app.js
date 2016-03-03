@@ -6,6 +6,7 @@ requirejs.config({
     "baseUrl": "js/lib",
     "paths": {
       "app": "../app"
+      //"jquery":"jquery.min"
     },
     "shim": {
         "jquery.alpha": ["jquery"],
