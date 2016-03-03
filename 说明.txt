@@ -1,4 +1,4 @@
-  项目中用到require.js做生产时模块开发，但上线要合并压缩，幸好它配套有r.js
+项目中用到require.js做生产时模块开发，但上线要合并压缩，幸好它配套有r.js
 
 你想r.js做压缩，还有一个必要条件，得安装node.js，这个不详谈了，自己百度谷哥。然后要安装r.js，
 window下打开控制台，输入npm install -g requirejs
